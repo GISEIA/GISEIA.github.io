@@ -11,119 +11,183 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to GISEIA 2023, Wuhan
-    text: It's Nice To Meet You
+    title: International Conference on Geospatial Information Science - Education, Innovation and Applications 2023
+    text: Welcome to GISEIA 2023 <br> Wuhan, China
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
     #image: assets/img/base.jpg
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  about:
+    title: "Welcome"
+    text: "<font size=4>GIS-EIA 2023, Wuhan, China</font>"
+    body: "Dear colleagues and friends:<br><br>
+
+           The GIS-EIA 2023, which aims at promoting the connection of global education chain, talent chain, innovation chain and industry chain in the field of Geo-Informatics, 
+           will be hosted by Wuhan University on **October 15-16, 2023**. As the name of conference reveals, education, innovation and applications are always the main themes. 
+           A variety of academic activities and social programs will be presented here, including keynote speeches, technical sessions and round table discussions. <br><br>
+
+           Experts, scholars and teachers from all around the world will be together in Wuhan, to share education experiences, to exchange the latest research results, 
+           to study the academic and technical development, as well as to show the advanced technology and achievements. 
+           It will be an excellent opportunity to directly contact with the world-class and the latest research and technology for Geospatial Information Science and other related areas.<br><br>
+
+           Look forward to seeing you in Wuhan, China!<br><br>
+
+           Best regards,<br><br>"       
+    image: assets/img/Huayi_Wu.jpg
+    signature: "&nbsp; &nbsp; &nbsp; &nbsp;  Prof. Huayi WU<br>
+               LIESMARS, Wuhan University"
+    # body: "<font size=5>Aiming at promoting the connection of global education chain, talent chain, innovation chain and industry chain 
+    #                     in the field of Geo-Informatics, and to push forward the deep cooperation between LIESMARS, Wuhan University 
+    #                     and other universities, institutions and companies all over the world, the International Conference on 
+    #                     Geospatial Information Science: Education, Innovation and Applications or (GIS-EIA 2023) will be held on 
+    #                     October 15-16, 2023 in Wuhan, China in both on site and online ways.</font>"
+    section: about
+    # align: left ?
+
+  team:
+    title: "Speaker"
+    text: "."
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Prof. Orhan Altan"
+        organization: "Istanbul Technical University (<b>ITU</b>) <br> Honorary Member of <b>ISPRS</b>"
+        image: assets/img/team/Orhan_Altan.png
+      - name: "Prof.  Petri Pellikka"
+        organization: "University of Helsinki (<b>UH</b>) <br> Fellow of the Finnish Academy of Science and Letters"
+        image: assets/img/team/Petri_Pellikka.png
+        social: 
+      - name: "Prof. Aleksei Portnov"
+        organization: "Moscow State University of Geodesy and Cartography (<b>MllGAiK</b>) <br> Vice Rector for Scientific and Technical Work, <b>MllGAiK</b>"
+        image: assets/img/team/Aleksei_Portnov.jpg
+
+
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Join Us"
+    # text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Time"
+    # text: "Lorem ipsum timeline"
+    text: " "
     section: timeline
+    image: assets/img/program-2.png
     # left is the default
     #start_align: "left"
     events:
-      - title: "Register"
-        year: "14 October"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Submission DDL"
+        year: "Sept. 30th "
+        desc: "Submit an extended abstract and present it!"
+        image: assets/img/timeline/submit.jpg
         alt:
-      - title: "Keynote"
-        year: "9:00 15 October"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Register DDL"
+        year: "Oct. 10th "
+        desc: "Plan your journey well!"
+        image: assets/img/timeline/ddl.avif
         alt:
-      - title: "Lunch"
-        year: "11:00 15 October"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Check In"
+        year: "Oct. 14th"
+        desc: "Be a member of us!"
+        image: assets/img/timeline/checkin.jpg
         alt:
-      - title: "Sessions"
-        year: "13:00 15 October"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Opening Ceremony "
+        year: "Oct. 15th 09:00"
+        desc: "Are you ready!"
+        image: assets/img/timeline/opening.avif
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Keynotes "
+        year: "Oct. 15th 09:30"
+        desc: "Wisdom of the experts and leaders!"
+        image: assets/img/timeline/keynote.jpg
+        alt:
+      # - title: "Lunch"
+      #   year: "15th October"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      #   image: assets/img/timeline/light-green.jpg
+      #   alt:
+      - title: "Sessions-Part I"
+        year: "Oct. 15th 14:00"
+        desc: "Academic, Technical, Advanced!"
+        image: assets/img/timeline/session.jpg
+        alt:
+      - title: "Dinner"
+        year: "Oct. 15th"
+        desc: "Cheers to forever friendship!"
+        image: assets/img/timeline/dinner.avif
+        alt:
+      - title: "Sessions-Part II"
+        year: "Oct. 16th  9:00"
+        desc: "Academic, Technical, Advanced!"
+        image: assets/img/timeline/session.jpg
+        # alt: image alt text
+      # - title: "Lunch"
+      #   year: "16th October"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      #   image: assets/img/timeline/light-green.png
+      #   alt:
+      - title: "Round table "
+        year: "Oct. 16th  14:00"
+        desc: "Let's imagine, discuss and debate!"
+        image: assets/img/timeline/roundtable2.jpg
+        alt:
+      - title: "Closing Ceremony"
+        year: "Oct. 16th"
+        desc: "Awards and Honors !"
+        image: assets/img/timeline/close.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Hope You <br> Enjoy <br> Our Journey!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+
 
   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "no" #"yes/no"
     list:
-      - title: "empty"
-        logo: assets/img/clients/empty.png
+      # - title: "empty"
+      #   logo: assets/img/clients/empty.png
       - title: "whu"
         url: https://www.whu.edu.cn/
-        logo: assets/img/clients/whu.png
+        logo: assets/img/clients/whu2.png
       - title: "liemas"
-        url: https://liesmars.whu.edu.cn/index.htm
-        logo: assets/img/clients/liemas2.png
-
-
-  team:
-    title: "Speaker"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Prof. Dr."
-        image: assets/img/team/500x500.jpg
-      - name: "Larry Parker"
-        role: "Prof. Dr."
-        image: assets/img/team/2.jpg
-        social:
-      - name: "Diana Perterson"
-        role: "Prof. Dr."
-        image: assets/img/team/500x500.jpg
-
+        url: https://liesmars.whu.edu.cn/
+        logo: assets/img/clients/logo-img.png
+      - title: "isprs"
+        url: https://www.isprs.org/
+        logo: assets/img/clients/isprs-logo.jpeg
+      - title: "rsgis"
+        url: https://rsgis.whu.edu.cn/
+        logo: assets/img/clients/rsgis-logo.jpg
+  
+  services:
+    title: "Sponsors"
+    # text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "Wuhan University"
+        desc: "A comprehensive Chinese university affiliated with and sponsored by the Ministry of Education of China, known for research in fields including **remote sensing** and **survey engineering**."
+        image: assets/img/hosts_sponsors/whu-logo.webp
+        # icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "LIESMARS"
+        desc: "The first state key laboratory in the field of surveying and mapping in China, and one of the centers for fundamental theoretical research and applied basic research in the field of **mapping and remote sensing** in China and the world."
+        image: assets/img/hosts_sponsors/logo-img.png
+        # icon: fas fa-laptop
+      - title: "ISPRS"
+        desc: "The famous non-governmental organization that is dedicated to the development of international cooperation and the advancement of **photogrammetry and remote sensing** and the applications of these technologies"
+        image: assets/img/hosts_sponsors/isprs_logo.jpg
+        # icon: fab fa-markdown
+      # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #   desc: "Your description here, full **Markdown** support"
+      #   icon: fab fa-markdown
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    # text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
