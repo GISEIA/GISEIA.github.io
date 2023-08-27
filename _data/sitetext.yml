@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     text: "<font size=4>GIS-EIA 2023, Wuhan, China</font>"
     body: "Dear colleagues and friends:<br><br>
 
-           The GIS-EIA 2023, which aims at promoting the connection of global education chain, talent chain, innovation chain and industry chain in the field of Geo-Informatics, 
+           The **GIS-EIA 2023**, which aims at promoting the connection of global education chain, talent chain, innovation chain and industry chain in the field of Geo-Informatics, 
            will be hosted by Wuhan University on **October 15-16, 2023**. As the name of conference reveals, education, innovation and applications are always the main themes. 
            A variety of academic activities and social programs will be presented here, including keynote speeches, technical sessions and round table discussions. <br><br>
 
@@ -31,10 +31,10 @@ en: &DEFAULT_EN
            to study the academic and technical development, as well as to show the advanced technology and achievements. 
            It will be an excellent opportunity to directly contact with the world-class and the latest research and technology for Geospatial Information Science and other related areas.<br><br>
 
-           Look forward to seeing you in Wuhan, China!<br><br>
+           Look forward to seeing you in **Wuhan, China**!<br><br>
 
            Best regards,<br><br>"       
-    image: assets/img/Huayi_Wu.jpg
+    image: c
     signature: "&nbsp; &nbsp; &nbsp; &nbsp;  Prof. Huayi WU<br>
                LIESMARS, Wuhan University"
     # body: "<font size=5>Aiming at promoting the connection of global education chain, talent chain, innovation chain and industry chain 
@@ -68,7 +68,7 @@ en: &DEFAULT_EN
     title: "Join Us"
     # text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Time"
@@ -188,7 +188,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    # text: "Lorem ipsum or call 123456789"
+    text: "Email: giseia2023@sina.com <br>Tel: +86-27-68778229<br>Address: No. 129 Luoyu Road, Hongshan District, Wuhan, Hubei, China."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
