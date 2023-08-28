@@ -46,14 +46,14 @@ en: &DEFAULT_EN
     # align: left ?
 
   team:
-    title: "Speaker"
+    title: "Invited Speaker"
     text: "."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Prof. Orhan Altan"
-        organization: "Istanbul Technical University (<b>ITU</b>) <br> Honorary Member of <b>ISPRS</b>"
-        image: assets/img/team/Orhan_Altan.png
+      - name: "Prof. Deren Li"
+        organization: "Wuhan University (<b>WHU</b>) <br> Academician of Chinese Academy of Sciences <br> Academician of Chinese Academy of Engineering <br> Honorary Member of <b>ISPRS</b>"
+        image: assets/img/team/Deren_Li.jpg
       - name: "Prof.  Petri Pellikka"
         organization: "University of Helsinki (<b>UH</b>) <br> Fellow of the Finnish Academy of Science and Letters"
         image: assets/img/team/Petri_Pellikka.png
@@ -61,7 +61,9 @@ en: &DEFAULT_EN
       - name: "Prof. Aleksei Portnov"
         organization: "Moscow State University of Geodesy and Cartography (<b>MllGAiK</b>) <br> Vice Rector for Scientific and Technical Work, <b>MllGAiK</b>"
         image: assets/img/team/Aleksei_Portnov.jpg
-
+      # - name: "Prof. Orhan Altan"
+      #   organization: "Istanbul Technical University (<b>ITU</b>) <br> Honorary Member of <b>ISPRS</b>"
+      #   image: assets/img/team/Orhan_Altan.png
 
 
   portfolio:
@@ -75,7 +77,7 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum timeline"
     text: " "
     section: timeline
-    image: assets/img/program-2.png
+    image: assets/img/program-v2.png
     # left is the default
     #start_align: "left"
     events:
@@ -84,7 +86,7 @@ en: &DEFAULT_EN
         desc: "Submit an extended abstract and present it!"
         image: assets/img/timeline/submit.jpg
         alt:
-      - title: "Register DDL"
+      - title: "Registration DDL"
         year: "Oct. 10th "
         desc: "Plan your journey well!"
         image: assets/img/timeline/ddl.avif
@@ -114,7 +116,7 @@ en: &DEFAULT_EN
         desc: "Academic, Technical, Advanced!"
         image: assets/img/timeline/session.jpg
         alt:
-      - title: "Dinner"
+      - title: "Gala Dinner"
         year: "Oct. 15th"
         desc: "Cheers to forever friendship!"
         image: assets/img/timeline/dinner.avif
@@ -166,7 +168,7 @@ en: &DEFAULT_EN
         logo: assets/img/clients/rsgis-logo.jpg
   
   services:
-    title: "Sponsors"
+    title: "Organizer and Sponsors"
     # text: "Lorem ipsum"
     section: services
     list:
