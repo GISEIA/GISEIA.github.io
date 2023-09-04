@@ -68,6 +68,19 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Join Us"
+    text: "· Energy and Sustainability
+           <br> · Environmental and Ecological Remote Sensing
+           <br> · SAR and InSAR
+           <br> · Smart Forest
+           <br> · Digital Spatial Technology and Application
+           <br> · Social Geography Computing"
+    # text: "<b>Conference Topics</b> (not limited to):<br>
+    #        <br>Energy and Sustainability
+    #        <br>Environmental and Ecological Remote Sensing
+    #        <br>SAR and InSAR
+    #        <br>Smart Forest
+    #        <br>Digital Spatial Technology and Application
+    #        <br>Social Geography Computing"
     # text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close"
@@ -169,6 +182,18 @@ en: &DEFAULT_EN
   
   services:
     title: "Organizer and Sponsors"
+    text: "· Huayi Wu, Conference Chair, Wuhan University, China
+<br>  · Bisheng Yang, Wuhan University, China
+<br>  · Zhen Dong, Wuhan University, China
+<br>  · Mi Wang, Wuhan University, China
+<br>  · Zhenfeng Shao, Wuhan University, China
+<br>  · Timo Balz, Wuhan University, China
+<br>  · Xinlian Liang, Wuhan University, China
+<br>  · Xianfeng Huang, Wuhan University, China
+<br>  · Xi Li, Wuhan University, China
+<br>  · Zhipeng Gui, Wuhan University, China
+<br>  · Biyu Chen, Wuhan University, China
+<br>  · Lite Shi, Wuhan University, China"
     # text: "Lorem ipsum"
     section: services
     list:
