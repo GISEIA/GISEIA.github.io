@@ -68,12 +68,13 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Join Us"
-    text: "· Energy and Sustainability
+    text: "· 3D Urban Form and Clean Energy
            <br> · Environmental and Ecological Remote Sensing
            <br> · SAR and InSAR
            <br> · Smart Forest
            <br> · Digital Spatial Technology and Application
-           <br> · Social Geography Computing"
+           <br> · Remote Sensing of Night-Time Light
+           <br> · Human Mobility Mining and Applications"
     # text: "<b>Conference Topics</b> (not limited to):<br>
     #        <br>Energy and Sustainability
     #        <br>Environmental and Ecological Remote Sensing
@@ -193,6 +194,7 @@ en: &DEFAULT_EN
 <br>  · Xi Li, Wuhan University, China
 <br>  · Zhipeng Gui, Wuhan University, China
 <br>  · Biyu Chen, Wuhan University, China
+<br>  · Shujuan Zhang, Wuhan University, China
 <br>  · Lite Shi, Wuhan University, China"
     # text: "Lorem ipsum"
     section: services
