@@ -57,24 +57,34 @@ en: &DEFAULT_EN
       - name: "Prof.  Petri Pellikka"
         organization: "University of Helsinki (<b>UH</b>) <br> Fellow of the Finnish Academy of Science and Letters"
         image: assets/img/team/Petri_Pellikka.png
-        social: 
-      - name: "Prof. Aleksei Portnov"
-        organization: "Moscow State University of Geodesy and Cartography (<b>MllGAiK</b>) <br> Vice Rector for Scientific and Technical Work, <b>MllGAiK</b>"
-        image: assets/img/team/Aleksei_Portnov.jpg
+
+      - name: "Prof.  Mei-Po Kwan"
+        organization: "The Chinese University of Hong Kong (<b>CUHK</b>) Fellow of the Royal Geographical Society (UK) <br> Fellow of the American Association of Geographers"
+        image: assets/img/team/Mei-PoKwan.jpg
+      - name: "Prof.  Wolfgang Kainz"
+        organization: "University of Vienna, Austria (<b>UNIVIE</b>) <br> President of the Austrian Cartographic Association"
+        image: assets/img/team/Wolfgang_Kainz.jpg
+      
+      # - name: "Prof. Aleksei Portnov"
+      #   organization: "Moscow State University of Geodesy and Cartography (<b>MllGAiK</b>) <br> Vice Rector for Scientific and Technical Work, <b>MllGAiK</b>"
+      #   image: assets/img/team/Aleksei_Portnov.jpg
       # - name: "Prof. Orhan Altan"
       #   organization: "Istanbul Technical University (<b>ITU</b>) <br> Honorary Member of <b>ISPRS</b>"
       #   image: assets/img/team/Orhan_Altan.png
+      #   social: 
 
 
   portfolio:
     title: "Join Us"
-    text: "· 3D Urban Form and Clean Energy
-           <br> · Environmental and Ecological Remote Sensing
-           <br> · SAR and InSAR
-           <br> · Smart Forest
-           <br> · Digital Spatial Technology and Application
-           <br> · Remote Sensing of Night-Time Light
-           <br> · Human Mobility Mining and Applications"
+    text: "· 1. 3D Urban Form and Clean Energy (Hosts: Prof. Bisheng Yang, Prof. Zhen Dong)
+           <br> · 2. SAR technology, applications, and education (Hosts: Prof. Timo Balz)
+           <br> · 3. Environmental and Ecological Remote Sensing (Hosts: Prof. Zhenfeng Shao)
+           <br> · 4. Forest and environment observations at different scales (Hosts: Prof. Xinlian Liang)
+           <br> · 5. Advances in Optical Remote Sensing and Applications (Hosts: Prof. Mi Wang)
+           <br> · 6. Geocompuation for social science in the era of spatiotemporal big data (Hosts: Prof. Biyu Chen)
+           <br> · 7. Earth Spatial Information Science under Global Environmental Changes (Hosts: Geo-Spatial Information Science)
+           <br> · 8. Remote Sensing of Night-Time Light (Hosts: Prof. Xi Li)
+           <br> · 9. Human Mobility Mining and Applications (Hosts: Prof. Zhipeng Gui)"
     # text: "<b>Conference Topics</b> (not limited to):<br>
     #        <br>Energy and Sustainability
     #        <br>Environmental and Ecological Remote Sensing
@@ -87,11 +97,11 @@ en: &DEFAULT_EN
     closebutton: "Close"
 
   timeline:
-    title: "Time"
+    title: "Time Schedule"
     # text: "Lorem ipsum timeline"
     text: " "
     section: timeline
-    image: assets/img/program-v2.png
+    image: assets/img/GIS-EIA_2023_Session_Schedule.png
     # left is the default
     #start_align: "left"
     events:
@@ -100,8 +110,8 @@ en: &DEFAULT_EN
         desc: "Submit an extended abstract and present it!"
         image: assets/img/timeline/submit.jpg
         alt:
-      - title: "Registration DDL"
-        year: "Oct. 10th "
+      - title: "Online Registration DDL"
+        year: "Oct. 14th "
         desc: "Plan your journey well!"
         image: assets/img/timeline/ddl.avif
         alt:
@@ -116,7 +126,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/opening.avif
         alt:
       - title: "Keynotes "
-        year: "Oct. 15th 09:30"
+        year: "Oct. 15th 09:15"
         desc: "Wisdom of the experts and leaders!"
         image: assets/img/timeline/keynote.jpg
         alt:
@@ -136,7 +146,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/dinner.avif
         alt:
       - title: "Sessions-Part II"
-        year: "Oct. 16th  9:00"
+        year: "Oct. 16th  08:30"
         desc: "Academic, Technical, Advanced!"
         image: assets/img/timeline/session.jpg
         # alt: image alt text
@@ -146,7 +156,7 @@ en: &DEFAULT_EN
       #   image: assets/img/timeline/light-green.png
       #   alt:
       - title: "Round table "
-        year: "Oct. 16th  14:00"
+        year: "Oct. 16th  10:30"
         desc: "Let's imagine, discuss and debate!"
         image: assets/img/timeline/roundtable2.jpg
         alt:
@@ -196,7 +206,8 @@ en: &DEFAULT_EN
 <br>  · Biyu Chen, Wuhan University, China
 <br>  · Shujuan Zhang, Wuhan University, China
 <br>  · Shen Ying, Wuhan University, China
-<br>  · Lite Shi, Wuhan University, China"
+<br>  · Lite Shi, Wuhan University, China
+<br>  · Fuxun Liang, Wuhan University, China"
     # text: "Lorem ipsum"
     section: services
     list:
