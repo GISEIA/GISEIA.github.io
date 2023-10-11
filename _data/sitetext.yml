@@ -51,9 +51,10 @@ en: &DEFAULT_EN
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Prof. Deren Li"
-        organization: "Wuhan University (<b>WHU</b>) <br> Academician of Chinese Academy of Sciences <br> Academician of Chinese Academy of Engineering <br> Honorary Member of <b>ISPRS</b>"
-        image: assets/img/team/Deren_Li.jpg
+      # - name: "Prof. Deren Li"
+      #   organization: "Wuhan University (<b>WHU</b>) <br> Academician of Chinese Academy of Sciences <br> Academician of Chinese Academy of Engineering <br> Honorary Member of <b>ISPRS</b>"
+      #   image: assets/img/team/Deren_Li.jpg
+      
       - name: "Prof.  Petri Pellikka"
         organization: "University of Helsinki (<b>UH</b>) <br> Fellow of the Finnish Academy of Science and Letters"
         image: assets/img/team/Petri_Pellikka.png
@@ -61,6 +62,7 @@ en: &DEFAULT_EN
       - name: "Prof.  Mei-Po Kwan"
         organization: "The Chinese University of Hong Kong (<b>CUHK</b>) Fellow of the Royal Geographical Society (UK) <br> Fellow of the American Association of Geographers"
         image: assets/img/team/Mei-PoKwan.jpg
+
       - name: "Prof.  Wolfgang Kainz"
         organization: "University of Vienna, Austria (<b>UNIVIE</b>) <br> President of the Austrian Cartographic Association"
         image: assets/img/team/Wolfgang_Kainz.jpg
@@ -76,15 +78,24 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Join Us"
-    text: "· 1. 3D Urban Form and Clean Energy (Hosts: Prof. Bisheng Yang, Prof. Zhen Dong)
-           <br> · 2. SAR technology, applications, and education (Hosts: Prof. Timo Balz)
-           <br> · 3. Environmental and Ecological Remote Sensing (Hosts: Prof. Zhenfeng Shao)
-           <br> · 4. Forest and environment observations at different scales (Hosts: Prof. Xinlian Liang)
-           <br> · 5. Advances in Optical Remote Sensing and Applications (Hosts: Prof. Mi Wang)
-           <br> · 6. Geocompuation for social science in the era of spatiotemporal big data (Hosts: Prof. Biyu Chen)
-           <br> · 7. Earth Spatial Information Science under Global Environmental Changes (Hosts: Geo-Spatial Information Science)
-           <br> · 8. Remote Sensing of Night-Time Light (Hosts: Prof. Xi Li)
-           <br> · 9. Human Mobility Mining and Applications (Hosts: Prof. Zhipeng Gui)"
+    # text: "· 1. 3D Urban Form and Clean Energy <br> &emsp;&emsp;&emsp; Chairs: Prof. Zhen Dong and Dr. Fuxun Liang
+    #        <br> · 2. SAR technology, applications, and education <br> &emsp;&emsp;&emsp;  Chairs: Prof. Timo Balz and Ms. Ruonan Gao
+    #        <br> · 3. Environmental and Ecological Remote Sensing <br> &emsp;&emsp;&emsp;  Chairs: Prof. Zhenfeng Shao and Mr. Qingwei Zhuang
+    #        <br> · 4. Forest and environment observations at different scales <br> &emsp;&emsp;&emsp;  Chairs: Prof. Xinlian Liang and Dr. Shangshu Cai
+    #        <br> · 5. Advances in Optical Remote Sensing and Applications <br> &emsp;&emsp;&emsp;  Chairs: Prof. Mi Wang and Ms. Xu Cheng
+    #        <br> · 6. Geocompuation for social science in the era of spatiotemporal big data <br> &emsp;&emsp;&emsp;  Chairs: Prof. Biyu Chen and Ms. Chenxi Fu
+    #        <br> · 7. Earth Spatial Information Science under Global Environmental Changes <br> &emsp;&emsp;&emsp;  Chairs: Prof. Tao He and Prof. Shujuan Zhang
+    #        <br> · 8. Remote Sensing of Night-Time Light <br> &emsp;&emsp;&emsp;  Chairs: Prof. Xi Li and Ms. Yizhen Wu
+    #        <br> · 9. Human Mobility Mining and Applications <br> &emsp;&emsp;&emsp;  Chairs: Prof. Zhipeng Gui and Mr. Dehua Peng"
+    text: "· 1. 3D Urban Form and Clean Energy <br> &emsp; Chairs: Prof. Zhen Dong and Dr. Fuxun Liang
+           <br><br> · 2. SAR technology, applications, and education <br> &emsp;  Chairs: Prof. Timo Balz and Ms. Ruonan Gao
+           <br><br> · 3. Environmental and Ecological Remote Sensing <br> &emsp; Chairs: Prof. Zhenfeng Shao and Mr. Qingwei Zhuang
+           <br><br> · 4. Forest and environment observations at different scales <br> &emsp;  Chairs: Prof. Xinlian Liang and Dr. Shangshu Cai
+           <br><br> · 5. Advances in Optical Remote Sensing and Applications <br> &emsp; Chairs: Prof. Mi Wang and Ms. Xu Cheng
+           <br><br> · 6. Geocompuation for social science in the era of spatiotemporal big data <br> &emsp; Chairs: Prof. Biyu Chen and Ms. Chenxi Fu
+           <br><br> · 7. Earth Spatial Information Science under Global Environmental Changes <br> &emsp;  Chairs: Prof. Tao He and Prof. Shujuan Zhang
+           <br><br> · 8. Remote Sensing of Night-Time Light <br> &emsp;  Chairs: Prof. Xi Li and Ms. Yizhen Wu
+           <br><br> · 9. Human Mobility Mining and Applications <br> &emsp;  Chairs: Prof. Zhipeng Gui and Mr. Dehua Peng"
     # text: "<b>Conference Topics</b> (not limited to):<br>
     #        <br>Energy and Sustainability
     #        <br>Environmental and Ecological Remote Sensing
@@ -101,7 +112,7 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum timeline"
     text: " "
     section: timeline
-    image: assets/img/GIS-EIA_2023_Session_Schedule-2.png
+    image: assets/img/GIS-EIA 2023 Session Schedule-1011.png
     # left is the default
     #start_align: "left"
     events:
@@ -193,21 +204,24 @@ en: &DEFAULT_EN
   
   services:
     title: "Organizer and Sponsors"
-    text: "· Huayi Wu, Conference Chair, Wuhan University, China
-<br>  · Bisheng Yang, Wuhan University, China
-<br>  · Zhen Dong, Wuhan University, China
-<br>  · Mi Wang, Wuhan University, China
-<br>  · Zhenfeng Shao, Wuhan University, China
-<br>  · Timo Balz, Wuhan University, China
-<br>  · Xinlian Liang, Wuhan University, China
-<br>  · Xianfeng Huang, Wuhan University, China
-<br>  · Xi Li, Wuhan University, China
-<br>  · Zhipeng Gui, Wuhan University, China
-<br>  · Biyu Chen, Wuhan University, China
-<br>  · Shujuan Zhang, Wuhan University, China
-<br>  · Shen Ying, Wuhan University, China
-<br>  · Lite Shi, Wuhan University, China
-<br>  · Fuxun Liang, Wuhan University, China"
+    text: "· Prof. Huayi Wu, Conference CHAIR, Wuhan University, China
+<br>  · Prof. Bisheng Yang, Wuhan University, China
+<br>  · Prof. Zhen Dong, Wuhan University, China
+<br>  · Prof. Timo Balz, Wuhan University, China
+<br>  · Prof. Zhenfeng Shao, Wuhan University, China
+<br>  · Prof. Xinlian Liang, Wuhan University, China
+<br>  · Prof. Mi Wang, Wuhan University, China
+<br>  · Prof. Biyu Chen, Wuhan University, China
+<br>  · Prof. Shujuan Zhang, Wuhan University, China
+<br>  · Prof. Xi Li, Wuhan University, China
+<br>  · Prof. Zhipeng Gui, Wuhan University, China
+<br>  · Prof. Zhipeng Gui, Wuhan University, China
+<br>  · Prof. Jun Pan, Wuhan University, China
+<br>  · Prof. Shen Ying, Wuhan University, China
+<br>  · Ms. Lite Shi, Wuhan University, China
+<br>  · Ms. Xiaozui Wang, Wuhan University, China
+<br>  · Dr. Fuxun Liang, Wuhan University, China"
+
     # text: "Lorem ipsum"
     section: services
     list:
