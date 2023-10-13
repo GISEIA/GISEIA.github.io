@@ -29,15 +29,19 @@
         <div class = "margin:0 0 ">
           <h3 class=" text-muted text-left"><b><br>Local Organizing Committee:</b></h3>
           <h6 class=" text-muted text-left"><br>{{ site.data.sitetext[site.locale].services.text | markdownify }}</h6>
-          <h6 class=" text-muted text-left"><br></h6>
-          <h3 class=" text-muted text-left"><b><br>Sponsors:<br><br><br></b></h3>
+          <h6 class=" text-muted text-left"><br><br><br><br></h6>
+          <!-- <h3 class=" text-muted text-left"><b><br>Sponsors:<br><br><br></b></h3> -->
         </div>
       </div>
 		  {% endif %}
         </div>
       </div>
 	  
-      <!-- Sponsors: -->
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ "Organizers and Sponsors" }}</h2>
+      </div>
+
+      <!-- Organizers : -->
       <div class="row text-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
         <div class="col-md-4">
@@ -47,6 +51,29 @@
         </div>
 	  {% endfor %}
       </div>
+
+     <!-- Sponsors : -->
+     <!-- <div class="container  col-lg-12">
+      <h3 class=" text-muted text-left"><b><br>Sponsors</b></h3>
+     </div> -->
+     <div class="row text-center">
+          <div class="col-md-12">
+            <h6 class=" text-muted text-left"><br><br></h6>
+              <img class="img-fluid col-5" src=" assets/img/hosts_sponsors/HiTarget_logo.png" alt="">
+            <h4 class="service-heading">{{ "Hi-Target Satellite Navigation Technology Co., Ltd." }}</h4>
+            <!-- <div class = "container align-center"> -->
+              <div class = "container  col-lg-8">
+                <h6 class=" text-muted text-left ">Established since 1999, Hi-Target is the first professional high-precision surveying and mapping instrument brand to be successfully listed in China. Hi-Target provides a wide range of surveying equipment including GNSS receivers, CORS stations, Total Station, 3D Laser Scanners, GIS Data Collectors, UAV/UAS, and Hydrographic products to offer complete commercial solutions for various industries.
+                  <br><br> As a leading brand in the geospatial industry, Hi-Target invests heavily in research and development, and collaborates with more than 100 universities globally to bring the latest positioning technology and innovation for product development.
+                  For over 20 years, Hi-Target has approximately 2,500 employees worldwide, with an established network of 28 subsidiaries, 28 branches and more than 200 partners in over 60 countries to service and support our customers. </h6>
+              </div>
+          </div>
+        </div>
+      <!-- - title: "Hi-Target"
+      #         desc: "Established since 1999, Hi-Target is the first professional high-precision surveying and mapping instrument brand to be successfully listed in China. Hi-Target provides a wide range of surveying equipment including GNSS receivers, CORS stations, Total Station, 3D Laser Scanners, GIS Data Collectors, UAV/UAS, and Hydrographic products to offer complete commercial solutions for various industries.
+      #         <br> <br> As a leading brand in the geospatial industry, Hi-Target invests heavily in research and development, and collaborates with more than 100 universities globally to bring the latest positioning technology and innovation for product development.
+      # For over 20 years, Hi-Target has approximately 2,500 employees worldwide, with an established network of 28 subsidiaries, 28 branches and more than 200 partners in over 60 countries to service and support our customers. "
+      #         image: assets/img/hosts_sponsors/HiTarget_logo.png -->
 	  
       <!-- Journal Partner: -->
       <div class="container  col-lg-12">
@@ -62,15 +89,28 @@
           <!-- <h6 class=" text-muted col-lg-6 text-left">Geo-spatial Information Science is an OA journal founded by  Wuhan University and now co-published with Taylor & Francis Group. It is indexed in SCI-E，EI，Scopus et al. </h6> -->
       </div>
 
-      <div class = "container  col-lg-6">
+      <div class = "container  col-lg-8">
         <!-- <h6 class=" text-muted text-left">http://www.tandfonline.com/tgsi<br>IF 2022: 6.0, Q1.<br>CiteScore 2022: 7.5, Q1.<br><br> </h6> -->
-        <h6 class=" text-muted text-left ">Geo-spatial Information Science is an OA journal founded by  Wuhan University and now co-published with Taylor & Francis Group. It is indexed in SCI-E，EI，Scopus et al. </h6>
+        <h6 class=" text-muted text-left ">Geo-spatial Information Science is an OA journal founded by  Wuhan University and now co-published with Taylor & Francis Group, indexed in SCI-E，EI，Scopus et al. </h6>
       </div>
 
       <div class="container  col-lg-12">
-        <h3 class=" text-muted text-left"><b><br>Quick Link:</b></h3>
+        <h3 class=" text-muted text-left"><b><br>Quick Link:<br><br></b></h3>
         <!-- <h6 class=" text-muted text-center"><br>The author has the opportunity to publish his/her articles in the journal  </h6> -->
     </div>
+
+    <div class="container">
+      <div class="row" {% if site.data.sitetext[site.locale].clients.horizontal-scrolling == "yes" %} id="scrolling-clients" {% endif %}>
+	    {% for client in site.data.sitetext[site.locale].clients.list %}
+        <div class="col-md-3 col-sm-6">
+          <a href="{{ client.url }}">
+            <img class="img-fluid d-block mx-auto" src="{{ client.logo }}" alt="{{ client.title }}" style="max-height: {{ site.data.sitetext[site.locale].clients.max-height | default: "100px" }}">
+          </a>
+        </div>
+	    {% endfor %}
+      </div>
+    </div>
+
     </div>
   </section>
 {% else %}

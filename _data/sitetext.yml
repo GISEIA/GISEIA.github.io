@@ -112,7 +112,7 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum timeline"
     text: " "
     section: timeline
-    image: assets/img/GIS-EIA 2023 Session Schedule-1012-2.png
+    image: assets/img/GIS-EIA 2023 Session Schedule-1013.png
     # left is the default
     #start_align: "left"
     events:
@@ -184,14 +184,16 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 100px
+    max-height: 120px
     horizontal-scrolling: "no" #"yes/no"
+    # horizontal-scrolling: "yes" #"yes/no"
     list:
       # - title: "empty"
       #   logo: assets/img/clients/empty.png
+
       - title: "whu"
         url: https://www.whu.edu.cn/
-        logo: assets/img/clients/whu2.png
+        logo: assets/img/clients/whu-logo.webp
       - title: "liemas"
         url: https://liesmars.whu.edu.cn/
         logo: assets/img/clients/logo-img.png
@@ -201,9 +203,18 @@ en: &DEFAULT_EN
       - title: "rsgis"
         url: https://rsgis.whu.edu.cn/
         logo: assets/img/clients/rsgis-logo.jpg
-  
+
+      - title: "hi-target"
+        url: https://www.zhdgps.com/about
+        logo: assets/img/clients/HiTarget_logo_square.jpg
+      - title: "gsis"
+        url: https://www.tandfonline.com/journals/tgsi20
+        logo: assets/img/clients/GSIS.png
+
+
   services:
-    title: "Organizer and Sponsors"
+    # title: "Organizer and Sponsors"
+    title: "Committee"
     text: "· Prof. Huayi Wu, Conference CHAIR, Wuhan University, China
 <br>  · Prof. Bisheng Yang, Wuhan University, China
 <br>  · Prof. Zhen Dong, Wuhan University, China
@@ -235,6 +246,12 @@ en: &DEFAULT_EN
       - title: "ISPRS"
         desc: "The famous non-governmental organization that is dedicated to the development of international cooperation and the advancement of **photogrammetry and remote sensing** and the applications of these technologies"
         image: assets/img/hosts_sponsors/isprs_logo.jpg
+      
+#       - title: "HI-TARGET"
+#         desc: "Established since 1999, Hi-Target is the first professional high-precision surveying and mapping instrument brand to be successfully listed in China. Hi-Target provides a wide range of surveying equipment including GNSS receivers, CORS stations, Total Station, 3D Laser Scanners, GIS Data Collectors, UAV/UAS, and Hydrographic products to offer complete commercial solutions for various industries.
+#         <br> <br> As a leading brand in the geospatial industry, Hi-Target invests heavily in research and development, and collaborates with more than 100 universities globally to bring the latest positioning technology and innovation for product development.
+# For over 20 years, Hi-Target has approximately 2,500 employees worldwide, with an established network of 28 subsidiaries, 28 branches and more than 200 partners in over 60 countries to service and support our customers. "
+#         image: assets/img/hosts_sponsors/HiTarget_logo.png
         # icon: fab fa-markdown
       # - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
       #   desc: "Your description here, full **Markdown** support"
