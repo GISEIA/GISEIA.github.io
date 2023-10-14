@@ -112,7 +112,7 @@ en: &DEFAULT_EN
     # text: "Lorem ipsum timeline"
     text: " "
     section: timeline
-    image: assets/img/GIS-EIA 2023 Session Schedule-1013-3.png
+    image: assets/img/GIS-EIA 2023 Session Schedule-1014.png
     # left is the default
     #start_align: "left"
     events:
